@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.block {
+    width: 12%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 1%;
+    position: relative;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
